@@ -15,10 +15,11 @@ public class App
         {
             if(i==4)
             {
-                break;
+                continue;
             }
 
             System.out.println(i);
         }
+        System.out.println("out of the loops executed successfully");
     }
 }
